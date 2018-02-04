@@ -5,17 +5,18 @@ description 'ESX THIEF'
 version '1.0.1'
 
 client_scripts {
-    '@es_extended/locale.lua',
-    'locales/en.lua',
-    'locales/fr.lua',
-    'config.lua',
-    'client/main.lua'
+	'@es_extended/locale.lua',
+	'locales/en.lua',
+	'locales/fr.lua',
+	'config.lua',
+	'client/main.lua',
+	'client/handsup.lua'
 }
 
 server_scripts {
-    '@es_extended/locale.lua',
-    'locales/en.lua',
-    'locales/fr.lua',
-    'config.lua',
+	'@es_extended/locale.lua',
+	'locales/en.lua',
+	'locales/fr.lua',
+	'config.lua',
 	'server/main.lua'
 }
